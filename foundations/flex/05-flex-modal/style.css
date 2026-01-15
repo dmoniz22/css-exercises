@@ -16,10 +16,32 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
+  margin: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+/* .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.header {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 700;
 }
 
 .icon {
@@ -33,6 +55,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
